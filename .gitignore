@@ -1,0 +1,73 @@
+
+# ==========================
+# VS Code
+# ==========================
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+!.vscode/launch.json
+!.vscode/tasks.json
+
+*.code-workspace
+.history/
+
+# ==========================
+# C# / .NET Build Files
+# ==========================
+bin/
+obj/
+Debug/
+Release/
+
+*.dll
+*.exe
+*.pdb
+*.cache
+
+# ==========================
+# IDE / User Settings
+# ==========================
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# ==========================
+# NuGet
+# ==========================
+*.nupkg
+*.snupkg
+packages/
+
+# ==========================
+# Operating Systems
+# ==========================
+
+# Windows
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# macOS
+.DS_Store
+
+# Linux
+*~
+.Trash-*/
+
+# ==========================
+# Temporary Files / Logs
+# ==========================
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+
+# ==========================
+# Environment / Secrets
+# ==========================
+.env
+.env.*
+!.env.example
